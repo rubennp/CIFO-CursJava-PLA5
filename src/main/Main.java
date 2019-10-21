@@ -7,13 +7,13 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
  * @author rubennp
  */
 public class Main {
+	private static final String cadena = "Hola, mi nombre es Rubèn Nieto";
+	
 	/**
 	 * Inicio
 	 * @param args son los argumentos de línea de comandos
 	 */
 	public static void main(String[] args) {
-		final String cadena = "Hola, mi nombre es Rubèn Nieto";
-		
 		// Carga los contextos
 		AnnotationConfigApplicationContext contextoPC = new AnnotationConfigApplicationContext(CfgPC.class);
 		AnnotationConfigApplicationContext contextoPI = new AnnotationConfigApplicationContext(CfgPI.class);
